@@ -16,6 +16,8 @@ const birthYear = 1947;
 
 const greeting = `Hello! My name is `+ firstName + ` ` + lastName + ` and I am ` + (thisYear - birthYear) + ` years old.`;
 
+console.log(greeting);
+
 // Do not change this
 module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
